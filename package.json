@@ -1,0 +1,32 @@
+{
+  "name": "fake-store-e-commerce",
+  "version": "1.0.0",
+  "description": "This is the official website of a fake online store that does not exist.",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dubey-tech/fake-store-e-commerce.git"
+  },
+  "keywords": [
+    "e-commerce",
+    "dubeytech",
+    "fake-store"
+  ],
+  "author": "Prashant Dubey (dubeytech)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dubey-tech/fake-store-e-commerce/issues"
+  },
+  "homepage": "https://github.com/dubey-tech/fake-store-e-commerce#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.8"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0"
+  }
+}
